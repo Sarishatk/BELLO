@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.create-acc:hover{
+    background-color: grey;
+}
+.ringing-bell {
+  animation: ring 1.5s infinite;
+  transform-origin: top center;
+  display: inline-block;
+  color: #f39c12;
+  font-size: 40px; 
+}
+
+@keyframes ring {
+  0% { transform: rotate(0); }
+  10% { transform: rotate(15deg); }
+  20% { transform: rotate(-10deg); }
+  30% { transform: rotate(7deg); }
+  40% { transform: rotate(-5deg); }
+  50% { transform: rotate(3deg); }
+  60% { transform: rotate(-2deg); }
+  70% { transform: rotate(1deg); }
+  80%, 100% { transform: rotate(0); }
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+.nav-link{
+    transition: transform 0.3s ease-in-out;
+}
+.masked-text {
+    font-size: 8rem;
+    font-weight: bold;
+    color: transparent;
+    background-image: url('https://images.unsplash.com/photo-1732535725600-f805d8b33c9c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: 200%; /* Enlarged for smooth animation */
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 5s infinite alternate linear;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+

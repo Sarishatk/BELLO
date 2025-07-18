@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bello/Home</title>
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous" />
@@ -14,138 +15,209 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./style.css" />
-
 </head>
 
 <body style="background-color: black;">
     <div class="container-fluid">
         <div class="row">
-            <div style="height: 1500px;" class="col-lg-2 col-md-8 col-12  border-end border-secondary">
-                <div class="icon position-relative ">
+
+            <!-- Left Sidebar -->
+            <div style="height: 1500px;" class="col-lg-2 col-md-8 col-12 border-end border-secondary">
+                <div class="icon position-relative">
                     <i class="fa-regular fa-bell text-white fa-2x mt-3 position-absolute start-50"></i>
                 </div>
 
                 <div class="ms-5">
-                    <div class=" mt-5">
-                        <div class="text-white"><i class="fa-solid fa-house mt-5 me-3 text-white"></i>Home</div>
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-hashtag  mt-5 me-3 text-white"></i>Explore</div>
-
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-comment mt-5 me-3 text-white"></i>Notification
-                        </div>
-
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-envelope mt-5 me-3 text-white"></i>Message</div>
-
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-bookmark mt-5 me-3 text-white"></i>Bookmarks</div>
-
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-list mt-5 me-3 text-white"></i>List</div>
-
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-user mt-5 me-3 text-white"></i>Profile</div>
-
-                    </div>
-                    <div>
-                        <div class="text-white"><i class="fa-solid fa-anchor mt-5 me-3 text-white"></i>More</div>
-
-                    </div>
-
+                    <div class="mt-5 text-white"><i class="fa-solid fa-house me-3"></i>Home</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-hashtag me-3"></i>Explore</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-comment me-3"></i>Notification</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-envelope me-3"></i>Message</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-bookmark me-3"></i>Bookmarks</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-list me-3"></i>List</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-user me-3"></i>Profile</div>
+                    <div class="mt-5 text-white"><i class="fa-solid fa-anchor me-3"></i>More</div>
                 </div>
-
             </div>
 
-            <div class="col-lg-5 col-md-8 col-12  border-end border-secondary ">
-                <nav class="navbar navbar-expand-lg bg-body-bl">
-                    <div class="container-fluid  border-bottom border-secondary ">
+            <!-- Center Feed -->
+            <div class="col-lg-6 col-md-8 col-12 border-end border-secondary">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid border-bottom border-secondary">
                         <a class="navbar-brand text-white" href="#">Home</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
-                                <div class="d-flex">
-
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white ms-auto" href="#"><i
-                                                class="fa-solid fa-star text-white"></i></a>
-                                    </li>
-
-
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#"><i
+                                            class="fa-solid fa-star text-white"></i></a>
+                                </li>
                             </ul>
-
-
                         </div>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
                     </div>
                 </nav>
-                <div class="w-100     d-flex">
-                      <div class="position-relative">
-                          <div style="width: 70px;height: 70px;" class="position-absolute  rounded-circle top-0 start-0">
-                           <img class="w-100 h-100 rounded-circle" src="https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg" alt="">
-                                    
-    
-                          </div>
-                      </div>
-                      <div style="margin-left: 90px;" class="text-white fs-4">Joshua Earle <span style="font-size: 15px;">@Joshua_earle . 45 min</span> <br>
-                     <p style="font-size: 20px;">Hiking High Dune.Our first adventure on <span class="text-primary">#TheBig Trip! </span>Read all about it at : <span class="text-primary">Explorer.com/hulung.....</span> </p>
+
+                <!-- Post 1 -->
+                <div class="w-100 d-flex mt-4">
+                    <div class="position-relative" style="width: 70px; height: 70px;">
+                        <img class="w-100 h-100 rounded-circle"
+                            src="https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg"
+                            alt="Profile">
                     </div>
-                    
-                      
+                    <div style="margin-left: 20px;" class="text-white fs-4">
+                        Joshua Earle <span style="font-size: 15px;">@Joshua_earle · 45 min</span>
+                        <p style="font-size: 20px;">Hiking High Dune. Our first adventure on
+                            <span class="text-primary">#TheBigTrip</span>! Read all about it at:
+                            <span class="text-primary">Explorer.com/hulung.....</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="w-100 ">
-                    <img class="w-100 rounded-3 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rDVOfQ23pZ4-GK67AZYUsMMiEu5Hp3Fxyg&s" alt="">
-                    
+
+                <!-- Post 1 Image -->
+                <div class="w-100">
+                    <img class="w-100 rounded-3"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rDVOfQ23pZ4-GK67AZYUsMMiEu5Hp3Fxyg&s"
+                        alt="">
                 </div>
-                <!-- like share subscribe -->
-                 <div class="like-share mt-4 border-bottom  border-secondary ">
-                    <div class="d-flex  justify-content-between mb-4">
+
+                <!-- Like Share Icons -->
+                <div class="like-share mt-4 border-bottom border-secondary">
+                    <div class="d-flex justify-content-between mb-4">
                         <i class="fa-solid fa-message text-white fa-2x"></i>
                         <i class="fa-solid fa-up-right-and-down-left-from-center text-white fa-2x"></i>
-                        <i  class=" fa-solid fa-heart text-white fa-2x"></i>
+                        <i class="fa-solid fa-heart text-white fa-2x"></i>
                         <i class="fa-solid fa-share text-white fa-2x"></i>
                     </div>
-                 </div>
-                 
-                  <div class="w-100   mt-3  d-flex">
-                      <div class="position-relative">
-                          <div style="width: 70px;height: 70px;" class="position-absolute  rounded-circle top-0 start-0">
-                           <img class="w-100 h-100 rounded-circle" src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="">
-                                    
-    
-                          </div>
-                      </div>
-                      <div style="margin-left: 90px;" class="text-white fs-4">Fernado fransis <span style="font-size: 15px;">@Fernado_fransis . 45 min</span> <br>
-                     <p style="font-size: 20px;">This is the "DEAD LINE" symbol <br>
-                    
-                    </p>
-                     <p style="font-size: 15px;" class="text-white">its part of our symbol pack that's straight out of the semplice labs whrer we work on fun little products.this time with the fantastic<span class="text-primary"> @weblays</span></p>
-                    </div>
-                    
-                      
                 </div>
-                <div class="w-100 ">
-                    <img class="w-100 rounded-3 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk2rDKV8yG9bJmhymbl5CgkP5fG_fSOx58bw&s" alt="">
-                    
-                </div>
-          </div>
-            <div class="col-lg-5 col-md-8 col-12 "></div>
 
+                <!-- Post 2 -->
+                <div class="w-100 mt-3 d-flex">
+                    <div class="position-relative" style="width: 70px; height: 70px;">
+                        <img class="w-100 h-100 rounded-circle"
+                            src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg"
+                            alt="Profile">
+                    </div>
+                    <div style="margin-left: 20px;" class="text-white fs-4">
+                        Fernado Fransis <span style="font-size: 15px;">@Fernado_fransis · 45 min</span>
+                        <p style="font-size: 20px;">This is the "DEAD LINE" symbol</p>
+                        <p style="font-size: 15px;">It's part of our symbol pack that's straight out of the Semplice
+                            Labs where we
+                            work on fun little products. This time with the fantastic <span
+                                class="text-primary">@weblays</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Post 2 Image -->
+                <div class="w-100">
+                    <img class="w-100 rounded-3"
+                        src="https://www.shutterstock.com/image-illustration/japanese-calligraphy-translation-600nw-2102689606.jpg"
+                        alt="">
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-8 col-12 text-white mt-3">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-bell "></i></span>
+                    <input type="text" class="form-control p-2 " placeholder="Search Bello!!!"
+                        aria-label="Search Bello!!!" aria-describedby="basic-addon1">
+                </div>
+                <div class="card text-white" style="background-color: black; width: 100%;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bolder" style="background-color: black; color: white;">Montreal
+                            trends</li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <h6># Disney plus</h6>
+                            <p># Disneyplus is coming to Canada, Start streaming on November 12</p>
+                            <p><i class="fa-solid fa-arrow-up-from-bracket me-2"></i>Promoted by Walt Disney studio
+                                canada</p>
+                        </li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <p>1. Treding</p>
+                            <h5>seinfed</h5>
+                            <p>10.9k bellos</p>
+                            <div>
+                                <div class="row  ">
+                                    <div class="col-lg-8  ">Televison
+                                        <p>Friends or seinfed ? fans sign off on which show they prefer</p>
+                                    </div>
+                                    <div class="col-lg-4  p-3  "><img style="width: 130px;height: 150px;"
+                                            src="https://thumbs.dreamstime.com/b/nightlife-disco-concept-young-people-dancing-club-74801500.jpg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <small class="text-white">3 · Politics</small>
+                            <h6>#ElectionResults</h6>
+                            <p>Final vote count released</p>
+                        </li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <p>4. Trending · Sports</p>
+                            <h5>#Olympics2025</h5>
+                            <p>Records being broken in Paris</p>
+                            <div class="row">
+                                <div class="col-lg-8">Track & Field Highlights</div>
+                                <div class="col-lg-4 p-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/runner-1838332_1280.jpg"
+                                        alt="Olympics" style="width: 100%; height: 100px; object-fit: cover;" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <small class="text-muted">1 · Trending in Entertainment</small>
+                            <h6>#BarbieMovie</h6>
+                            <p>New trailer just dropped — fans excited!</p>
+                            <p class="text-muted">42.5K Bellos</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <p class="mb-0">Starring Margot Robbie and Ryan Gosling
+                                        Lorem ipsum dolor, sit amet con
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+                                        class="w-100 rounded" style="height: 100px; object-fit: cover;" alt="barbie" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <small class="text-white">2 · Trending in Music</small>
+                            <h6>#DrakeVsKendrick</h6>
+                            <p class="mb-1">Which album wins 2025?</p>
+                            <ul class="ps-3 mb-2">
+                                <li>Drake - "Views Reloaded"</li>
+                                <li>Kendrick - "DAMN. 2"</li>
+                            </ul>
+                            <p class="text-white">89.1K Bellos · Fan Poll</p>
+                        </li>
+                        <li class="list-group-item" style="background-color: black; color: white;">
+                            <small class="text-white">5 · Trending in Lifestyle</small>
+                            <h6>#MinimalismChallenge</h6>
+                            <p>Can you survive with only 10 items for a week?</p>
+                            <p class="text-white">Read more at <span class="text-primary">minimalmag.com</span></p>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+            </div>
 
         </div>
     </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
